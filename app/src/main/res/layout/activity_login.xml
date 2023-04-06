@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/loginImage"
+            android:layout_width="154dp"
+            android:layout_height="110dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/login_picture" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginImage"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/login_to_your_account"
+            android:theme="@style/LoginHeadFontStyle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:theme="@style/LoginInputFontStyle"
+            android:id="@+id/emailtv"
+            android:visibility="invisible"
+            android:layout_marginTop="50dp"
+            android:text="@string/email"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_below="@+id/emailtv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:hint="Email"
+            android:textColorHint="@color/hintcolor"
+            android:background="@drawable/et_shape"
+            android:id="@+id/et_email_login"
+            android:inputType="textEmailAddress"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_below="@+id/et_email_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/LoginInputFontStyle"
+            android:layout_marginStart="20dp"
+            android:visibility="invisible"
+            android:id="@+id/passwordtv"
+            android:layout_marginTop="10dp"
+            android:text="@string/password"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:hint="Password"
+            android:textColorHint="@color/hintcolor"
+            android:layout_below="@+id/passwordtv"
+            android:inputType="textPassword"
+            android:background="@drawable/et_shape"
+            android:id="@+id/et_password_login"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/et_password_login"
+            android:text="@string/loginbtn"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            style="@style/LoginButtonFontStyle"
+            android:id="@+id/btnLogin"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_shape"
+            />
+
+        <LinearLayout
+            android:id="@+id/signupBTN"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center"
+           android:layout_alignParentBottom="true"
+            android:layout_height="50dp">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:theme="@style/LoginBottomLeftFontStyle"
+                android:text="@string/donothaveaccount"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/LoginBottomRightFontStyle"
+                android:id="@+id/signupTextView"
+                android:text="@string/sign_up"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

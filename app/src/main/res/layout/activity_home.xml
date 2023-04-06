@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_background"
+    android:layout_height="match_parent"
+    tools:context=".activity.HomeActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:id="@+id/toolbarLayout"
+       android:layout_height="70dp">
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_centerVertical="true"
+          android:layout_height="wrap_content">
+         <androidx.appcompat.widget.AppCompatImageView
+             android:layout_width="30dp"
+             android:id="@+id/backArrow"
+             android:layout_gravity="center"
+             android:layout_marginStart="10dp"
+             android:src="@drawable/baseline_arrow_back_24"
+             android:layout_centerVertical="true"
+             android:layout_height="30dp"/>
+
+      </LinearLayout>
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:layout_width="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginStart="5dp"
+          android:layout_centerVertical="true"
+          android:layout_centerInParent="true"
+          style="@style/ToolbarTitle"
+          android:layout_height="wrap_content"
+          android:text="@string/home"/>
+
+      <LinearLayout
+          android:layout_width="80dp"
+          android:layout_marginEnd="10dp"
+          android:layout_alignParentEnd="true"
+          android:background="@drawable/log_out_btn_shape"
+          android:layout_centerVertical="true"
+          android:id="@+id/btnLogout"
+          android:layout_height="30dp">
+
+         <androidx.appcompat.widget.AppCompatTextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:theme="@style/Logout"
+             android:text="@string/logout"/>
+
+      </LinearLayout>
+
+
+   </RelativeLayout>
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:theme="@style/categories"
+       android:layout_below="@+id/toolbarLayout"
+       android:layout_marginStart="10dp"
+       android:id="@+id/category"
+       android:layout_marginTop="10dp"
+       android:text="@string/categories"/>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_below="@+id/category"
+       android:layout_marginTop="5dp"
+       android:layout_marginStart="30dp"
+       android:id="@+id/categoryRecyclarview"
+       android:layout_height="200dp"/>
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:theme="@style/categories"
+       android:layout_below="@+id/categoryRecyclarview"
+       android:layout_marginStart="10dp"
+       android:id="@+id/additem"
+       android:layout_marginTop="10dp"
+       android:text="@string/addItem"/>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_below="@+id/additem"
+       android:layout_marginStart="10dp"
+       android:id="@+id/addbtn"
+       android:layout_marginEnd="10dp"
+       android:background="@drawable/btn_shape_home"
+       android:layout_height="55dp">
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_centerVertical="true"
+          android:id="@+id/addItembtn"
+          android:layout_height="wrap_content">
+         <androidx.appcompat.widget.AppCompatTextView
+             android:layout_width="wrap_content"
+             android:gravity="clip_vertical"
+             android:layout_marginStart="20dp"
+             android:layout_gravity="center"
+             android:theme="@style/addItemsButton"
+             android:layout_height="wrap_content"
+             android:text="@string/add_item"/>
+
+
+
+
+
+      </LinearLayout>
+
+      <androidx.appcompat.widget.AppCompatImageView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+
+          android:layout_centerVertical="true"
+          android:layout_marginEnd="20dp"
+          android:layout_alignParentEnd="true"
+          android:src="@drawable/baseline_add_24"/>
+
+
+   </RelativeLayout>
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:theme="@style/categories"
+       android:layout_below="@+id/addbtn"
+       android:id="@+id/checkList"
+       android:layout_marginStart="10dp"
+       android:layout_marginTop="10dp"
+       android:text="Recently Added Items"/>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_below="@+id/checkList"
+       android:layout_height="match_parent">
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/checkListRecyclarview"/>
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:id="@+id/noItemFound"
+          android:textColor="@color/black"
+          android:layout_centerInParent="true"
+          android:text="@string/no_item_found"/>
+
+
+
+
+
+   </RelativeLayout>
+
+</RelativeLayout>

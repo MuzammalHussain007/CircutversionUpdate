@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "654555510026",
+    "firebase_url": "https://circuit-db74f-default-rtdb.firebaseio.com",
+    "project_id": "circuit-db74f",
+    "storage_bucket": "circuit-db74f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654555510026:android:ce07e9365caff676e536f3",
+        "android_client_info": {
+          "package_name": "com.mh.circuit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654555510026-9767t8hh5cu6u5lebdfqg97n96gglm4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABbSI12vVyXu3wP4S9j8KUOQMqIIN4FkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654555510026-9767t8hh5cu6u5lebdfqg97n96gglm4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654555510026:android:2affef724da9b693e536f3",
+        "android_client_info": {
+          "package_name": "com.mh.circutversionupdate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654555510026-9767t8hh5cu6u5lebdfqg97n96gglm4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABbSI12vVyXu3wP4S9j8KUOQMqIIN4FkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654555510026-9767t8hh5cu6u5lebdfqg97n96gglm4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

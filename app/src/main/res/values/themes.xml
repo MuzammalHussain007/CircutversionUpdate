@@ -1,0 +1,194 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Circuit" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="LoginHeadFontStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/loginheadfontcolor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="LoginInputFontStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/logintextviewcolor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="LoginButtonFontStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="LoginBottomLeftFontStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/donothaveaccount</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="LoginBottomRightFontStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/loginheadfontcolor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="ToolbarTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Logout">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="categories">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="addItems">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/loginheadfontcolor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="addItemsButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/loginheadfontcolor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="checkListItemName">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/loginheadfontcolor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="checkListItemPrice">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="checkListItemQuanity">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/loginheadfontcolor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="categoriesName">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="itemName">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/loginheadfontcolor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="addItemSearch">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="SearchItem">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/loginheadfontcolor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ItemDescription">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ItemDescriptionName">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/loginheadfontcolor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ItemDescriptionPrice">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ItemDescriptionPriceTextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ItemDescriptionDesTextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ItemDescriptionPinLocation">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ItemCheckListShareText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/loginheadfontcolor</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+
+</resources>

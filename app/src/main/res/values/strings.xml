@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Circuit</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="loginbtn">Login</string>
+    <string name="donothaveaccount">Don\'t Have An Account?</string>
+    <string name="sign_up"><u>SignUp</u></string>
+    <string name="create_account">Create your account</string>
+    <string name="fullname">Full Name</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="signupbtn">Signup</string>
+    <string name="emailisnotempty">Email Should not Empty</string>
+    <string name="emailaddressnotvalid">Email is not valid</string>
+    <string name="passwordisnotempty">Password should not empty</string>
+    <string name="TitleFieldmustnotempty">Name must not empty</string>
+    <string name="cnfrmpasswordpasswordisnotempty">Confirm password should not empty</string>
+    <string name="passwordnotmatch">Password does not match</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="categories">Categories</string>
+    <string name="addItem">Add Item</string>
+    <string name="add_item">Add Item</string>
+    <string name="checklist">Check List</string>
+    <string name="no_item_found">No Item Found</string>
+    <string name="addItems">Add Items</string>
+    <string name="items">Items</string>
+    <string name="search_item">Search Item</string>
+    <string name="Itemdes">Item Description</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="full_address">ABC, Street 1, XYZ</string>
+    <string name="pinlocation">Pin Location</string>
+    <string name="ItemName">Item Name</string>
+    <string name="login_"> <u>Login</u> </string>
+</resources>

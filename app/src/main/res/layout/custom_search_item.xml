@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/custom_checklist_background"
+    android:layout_marginBottom="10dp"
+    android:layout_height="60dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/ItemName"
+        android:layout_marginEnd="180dp"
+        android:theme="@style/SearchItem"
+        android:layout_marginStart="20dp"
+        android:text="Dummy Item"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/ItemPrice"
+            android:layout_alignParentEnd="true"
+            android:theme="@style/SearchItem"
+            android:layout_marginStart="10dp"
+            android:text="$20"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="24dp"
+            android:id="@+id/add"
+            android:visibility="gone"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/add"
+            android:layout_height="24dp"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
